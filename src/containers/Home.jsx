@@ -1,10 +1,17 @@
 import Layout from "../hocs/Layout"
 
+
 const Home = () => {
     return (
-        <Layout>
-        Home
-        </Layout>
+       <Layout>
+
+        <div className="text-blue-500">
+             Home
+       </div> 
+
+       </Layout> 
+       
+       
     )
 }
 
